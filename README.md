@@ -1,4 +1,4 @@
-<p style="text-align: center;">glycoTS</p>
+# glycoTS
 
 This repository houses Python (Jupyter notebooks) and R codes used in the analysis of glycogene expressions in single-cell data of Tabula Sapiens. 
 
