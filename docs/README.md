@@ -14,26 +14,23 @@ Two webtools, glycoCARTA and glycoTF, are available for exploring glycogene and 
 * C-Mannosyltransferases (c-Man) mediate C-mannosylation of proteins on tryptophan residues.
 * In this use case, we use glycoCARTA to explor the expression of c-Man pathway in epithelial cells. Besides epithelial cells, glycoCARTA provides analysis of endothelial, stromal, and immune cells.
 
-![Select genes](./gifs/GlycoTF_GDP-Fuc-select.gif)
+![Select genes](./gifs/Glycocarta_Mannose-select_0.gif)
 
 * The UMAP viewer shows the UMAP colored by the tissues available in TabulaSapiens.
 * Genes can either be manually entered in column format (1 gene per line) in the text box or can be selected by either pathway or functional ontology to populate.
 
-The Gene expression viewer can be used to show distribution of the mean expression of valid genes in the text box. The expreesion is log-normalized.
+The Gene expression viewer can be used to show distribution of the mean expression of valid genes in the text box. The expression is log-normalized.
 
-![Show genes](./gifs/GlycoTF_GDP-Fuc-showexpr.gif)
+![Show genes](./gifs/Glycocarta_Mannose-clip_1.gif)
 
 This can be further clipped by the expression values. Here, we filter  the cells to only values which are atleast 50% (0.6) of the maximum expression (1.2). 
+* Going back to the UMAP viewer, we observe that majority of the highly expressed epithelial cells belong to the Prostate, Liver and Lung tissues. 
 
-![Clip expression](./gifs/GlycoTF_GDP-Fuc-clip.gif)
-
-* Going back to the UMAP viewer, we observe that majority of the highly expressed epithelial cells belong to the Salivary Gland tissue. 
-
-![Clip expression UMAP](./gifs/GlycoTF_GDP-Fuc-clip2.gif)
+![Clip expression](./gifs/Glycocarta_Mannose-clip2_2.gif)
 
 * We can observe the distribution of the expression through the histogram. The mode expression of cells (non-zero) is 0.4. 
 
-![Histogram](./gifs/GlycoTF_GDP-Fuc-hist.gif)
+![Histogram](./gifs/Glycocarta_Mannose-hist_3.gif)
 
 The transcription factors for these can be further check on the webtool [glycoTF](https://www.virtualglycome.org).
 
