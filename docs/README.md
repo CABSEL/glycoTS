@@ -20,10 +20,10 @@ Two webtools, glycoCARTA and glycoTF, are available for exploring glycogene and 
 * Genes can either be manually entered in column format (1 gene per line) in the text box or can be selected by either pathway or functional ontology to populate.
 
 The Gene expression viewer can be used to show distribution of the mean expression of valid genes in the text box. The expression is log-normalized.
-
+This can be further clipped by the expression values. Here, we filter  the cells to only values which are atleast 40% (0.4) of the maximum expression (1.09). 
 ![Show genes](./gifs/Glycocarta_Mannose-clip_1.gif)
 
-This can be further clipped by the expression values. Here, we filter  the cells to only values which are atleast 50% (0.6) of the maximum expression (1.2). 
+
 * Going back to the UMAP viewer, we observe that majority of the highly expressed epithelial cells belong to the Prostate, Liver and Lung tissues. 
 
 ![Clip expression](./gifs/Glycocarta_Mannose-clip2_2.gif)
@@ -40,9 +40,10 @@ The transcription factors for these can be further check on the webtool [glycoTF
 * glycoTF utilizes the TFLinks database to analyze transcription factor-glycogene relations as supported by TabulaSapiens data.
 * Here, we select the 4 genes corresponding to GDP-Fucose (FCSK, FPGT, GMDS, GFUS)
 
-![Links](./gifs/GlycoTF_GDP-Fuc-links.gif)
+![Select_Targets](./gifs/Glycotf_Mannose-select_4.gif)
 
-The pathway dropdown can be used to select glycogenes by pathways
+The pathway dropdown can be used to select glycogenes by pathways.
 The textbox allows entering genes in column format (1 gene per row)
 
 * The links in the graph currently show the top 200 TF-target links which cross the 99th percentile threshold of Normalized Mutual Information (NMI). A lot of the links have very low Normalized Mutual Information. So, we further filter these to just the top 20 nodes. 
+![Links](./gifs/Glycotf_Mannose-link_5.gif)
