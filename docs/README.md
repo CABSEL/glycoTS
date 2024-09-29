@@ -1,12 +1,3 @@
-# glycoTS
-
-This repository houses Python (Jupyter notebooks) and R codes used in the analysis of glycogene expressions in single-cell data of Tabula Sapiens. 
-
-The work is described in the following manuscript:
-P. Chrysinas, S. Venkatesan, I. Ang, V. Ghosh, C. Chen, S. Neelamegham, and Rudiyanto Gunawan. Cell and tissue-specific glycosylation pathways informed by single-cell transcriptomics, _bioRxiv_ 559616, 2023
-
-Two webtools, glycoCARTA and glycoTF, are available for exploring glycogene and glycopathway expression and transcriptional regulation. These webtools are parts of Systems Glycobiology resource [virtualglycome.org](https://www.virtualglycome.org). In the following, we provide an example use case of glycoCARTA and glycoTF.
-
 ## Example Use Case: Analyzing the gene expression profile of C-Mannosyltransferases
 ---
 [GlycoCARTA](http://vgdev.cedar.buffalo.edu/glycocarta/) is a webtool for exploring glycogene and glycopathway expression at single-cell level. 
