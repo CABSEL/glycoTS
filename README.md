@@ -5,20 +5,21 @@ This repository houses Python (Jupyter notebooks) and R codes used in the analys
 The work is described in the following manuscript:
 P. Chrysinas, s. Venkatesan, I. Ang, V. Ghosh, C. Chen, S. Neelamegham, and Rudiyanto Gunawan. Cell and tissue-specific glycosylation pathways informed by single-cell transcriptomics, _bioRxiv_ 559616, 2023
 
+Two webtools, glycoCARTA and glycoTF, are available for exploring glycogene and glycopathway expression and transcriptional regulation. These webtools are parts of Systems Glycobiology resource [virtualglycome.org](https://www.virtualglycome.org). In the following, we provide an example use case of glycoCARTA and glycoTF.
 
-## Use Case: Analyzing the gene expression profile of GDP-Fucose
+## Example Use Case: Analyzing the gene expression profile of C-Mannosyltransferases
 ---
-[GlycoCARTA](https://vgdev.cedar.buffalo.edu/glycocarta)
+[GlycoCARTA](https://www.virtualglycome.org) is a webtool for exploring glycogene and glycopathway expression at single-cell level. 
 
-* GDP-Fucose an essential precursor for glycosylation via fucose salvage pathway.
-* GlycoEnzOnto has the functional annotation of GDP-Fucose which can be explored through glycoCARTA. glycoCARTA currently has pages for endothelial, stromal, epithelial and immune cells.
+* C-Mannosyltransferases (c-Man) mediate C-mannosylation of proteins on tryptophan residues.
+* In this use case, we use glycoCARTA to explor the expression of c-Man pathway in epithelial cells. Besides epithelial cells, glycoCARTA provides analysis of endothelial, stromal, and immune cells.
 
 ![Select genes](./gifs/GlycoTF_GDP-Fuc-select.gif)
 
 * The UMAP viewer shows the UMAP colored by the tissues available in TabulaSapiens.
 * Genes can either be manually entered in column format (1 gene per line) in the text box or can be selected by either pathway or functional ontology to populate.
 
-The Gene expression viewer can be used to show distribution of the mean expression of valid genes in the text box. The expreesion is log normalized.
+The Gene expression viewer can be used to show distribution of the mean expression of valid genes in the text box. The expreesion is log-normalized.
 
 ![Show genes](./gifs/GlycoTF_GDP-Fuc-showexpr.gif)
 
@@ -34,7 +35,7 @@ This can be further clipped by the expression values. Here, we filter  the cells
 
 ![Histogram](./gifs/GlycoTF_GDP-Fuc-hist.gif)
 
-The transcription factors for these can be further check on glycoTF
+The transcription factors for these can be further check on the webtool [glycoTF](https://www.virtualglycome.org).
 
 [GlycoTF](https://vgdev.cedar.buffalo.edu/glycotf)
 
