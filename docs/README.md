@@ -36,7 +36,7 @@ Two webtools, glycoCARTA and glycoTF, are available for exploring glycogene and 
 
 ![Histogram](./gifs/Glycocarta_Mannose-hist_3.gif)
 
-The transcription factors for these can be further check on the webtool [GlycoTF](https://vgdev.cedar.buffalo.edu/glycotf).
+The transcription factors for these can be further check on the webtool [GlycoTF](http://vgdev.cedar.buffalo.edu/glycotf).
 
 In the following, we used glycoTF to identify candidate TFs for the four genes related to GDP-Fucose.
 As illustrated below, genes can either be selected based on the list of pathways or entered in the search box (one gene per line). In the animation, we first select genes related to fucosylation and subsequently identify the four genes of interest: DPY19L3, DPY19L2, DPY19L1, DPY19L4.
